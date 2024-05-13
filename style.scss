@@ -648,6 +648,14 @@ body {
         max-width: 800px;
       }
     }
+
+    .es-banner {
+      min-height: 180px;
+
+      &__image {
+        width: 30%;
+      }
+    }
   }
 
   @media screen and (min-width: 860px) {
@@ -769,7 +777,6 @@ body {
     .es-banner {
       padding-top: 50px;
       padding-bottom: 0;
-      min-height: 220px;
       margin-bottom: 34px;
     }
   }
