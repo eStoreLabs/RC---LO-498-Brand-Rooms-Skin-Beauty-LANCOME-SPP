@@ -68,6 +68,8 @@ body {
 
   .es-banner {
     padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 57px;
     margin-bottom: 34px;
     background: url('./images/banner-bg.png') no-repeat center;
@@ -164,15 +166,17 @@ body {
 
     &__image {
       @include img;
-      margin-bottom: 39px;
+      margin-bottom: 20px;
     }
 
     &__item-title {
+      margin-bottom: 25px;
+      font-family: $secondary;
       font-weight: 500;
       font-size: 20px;
       text-align: center;
       color: $black;
-      margin-bottom: 25px;
+      text-transform: uppercase;
     }
 
     &__item-link {
@@ -217,7 +221,7 @@ body {
       font-family: $secondary;
       margin-bottom: 20px;
       font-weight: 400;
-      font-size: 40px;
+      font-size: 35px;
       text-transform: uppercase;
       text-align: center;
     }
@@ -246,12 +250,24 @@ body {
       padding: 16px 16px;
       margin-bottom: 16px;
       border: 1px solid $black;
+      border-radius: 5px;
       transition: all 0.3s ease;
       text-align: center;
       &:hover {
         color: $black;
         background: $white;
       }
+    }
+  }
+
+  .es-banner-3 {
+    &__description {
+      display: block;
+      margin-bottom: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 570px;
+      text-align: center;
     }
   }
 
@@ -271,9 +287,14 @@ body {
       @include img;
       max-height: 290px;
       max-width: 220px;
+      margin-bottom: 20px;
 
       &--3 {
         margin-right: -50px;
+      }
+
+      &--range {
+        max-width: 300px;
       }
     }
     &__single {
@@ -316,22 +337,37 @@ body {
     }
     &__item-title {
       @include text;
-      min-height: 80px;
-      margin-bottom: 30px;
+      min-height: 30px;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 14px;
       text-align: center;
       color: $black;
+      text-transform: uppercase;
+
+      &--range {
+        min-height: 10px;
+      }
     }
 
     &__item-subtitle {
+      @include text;
+      margin-bottom: 25px;
       display: block;
       margin-top: 10px;
-      font-size: 16px;
+      font-size: 11px;
+      text-transform: none;
+      color: $black;
+      text-align: center;
+      min-height: 40px;
+
+      &--range {
+        min-height: 100px;
+        font-size: 11px;
+      }
     }
     &__link {
       @include text;
-      font-family: $secondary;
+      font-family: $regular;
       color: $white;
       min-width: 195px;
       background: $black;
@@ -343,6 +379,7 @@ body {
       border: 1px solid $black;
       transition: all 0.3s ease;
       text-align: center;
+      border-radius: 5px;
       &:hover {
         color: $black;
         background: $white;
@@ -605,25 +642,26 @@ body {
       font-size: 30px;
       text-align: center;
     }
+
+    .es-cross {
+      &__container {
+        max-width: 800px;
+      }
+    }
   }
 
   @media screen and (min-width: 860px) {
     .es-cross {
       &__container {
         justify-content: space-around;
-        max-width: none;
-      }
-      &__single {
-        max-width: 140px;
       }
       &__title {
-        margin-bottom: 100px;
+        margin-bottom: 40px;
       }
       &__text {
         min-height: 75px;
       }
       &__img {
-        max-width: 250px;
         max-height: 366px;
 
         &--2 {
@@ -660,22 +698,47 @@ body {
     }
 
     .es-title {
-      font-size: 44px;
+      font-size: 35px;
     }
   }
 
   @media screen and (min-width: 925px) {
+    .es-cross {
+      gap: 1px;
+      &__img {
+        max-width: 215px;
+        max-height: 366px;
+
+        &--range {
+          max-width: 300px;
+        }
+      }
+    }
   }
   @media screen and (min-width: 1024px) {
   }
   @media screen and (min-width: 1200px) {
+    .es-slider {
+      &__slide {
+        min-height: 450px;
+      }
+    }
+
     .es-cross {
+      &__container {
+        max-width: none;
+      }
+
       &__single {
         max-width: 220px;
         justify-content: space-between;
+
+        &--range {
+          max-width: 283px;
+        }
       }
       &__link {
-        min-width: 248px;
+        min-width: 214px;
       }
       &__text {
         max-width: 245px;
@@ -716,7 +779,7 @@ body {
     .es-category,
     .es-cross,
     .es-video {
-      margin-bottom: 114px;
+      margin-bottom: 20px;
     }
   }
 
