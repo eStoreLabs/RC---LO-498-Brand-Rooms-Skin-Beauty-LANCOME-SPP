@@ -91,15 +91,18 @@ body {
   .es-slider {
     position: relative;
     margin-bottom: 30px;
-    // position: relative;
+
     &__slide {
-      background: url('./images/slider-image-1.png') no-repeat center;
-      background-size: cover;
       min-height: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
+      &--first {
+        background: url('./images/slider-image-1.png') no-repeat center;
+        background-size: cover;
+      }
     }
 
     &__slider-content {
@@ -730,6 +733,10 @@ body {
       &__slide {
         min-height: 450px;
       }
+    }
+
+    .slick-dots {
+      left: 47%;
     }
 
     .es-cross {
