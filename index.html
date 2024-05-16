@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="es-prada" id="es-prada">
+    <div class="es-lancome" id="es-lancome">
       <section class="es-banner">
         <img
           class="es-banner__image"
@@ -29,24 +29,19 @@
         />
       </section>
 
-      <section class="es-slider">
+      <section class="es-slider es-slider--desktop">
         <div class="es-slider__slides es-slick-carousel">
           <div class="es-slider__slide es-slider__slide--first">
             <div class="es-slider__slider-content">
-              <p class="es-slider__title">HYPNÔSE DRAMA</p>
-              <p class="es-slider__description">
-                Ekstremalna objętość, maksymalny <br />efekt drama
-              </p>
-              <a class="es-slider__link" href="#" target="_blank">odkryj</a>
-            </div>
-          </div>
-
-          <div class="es-slider__slide">
-            <div class="es-slider__slider-content">
               <a class="" href="#" target="_blank">
                 <img
-                  class="es-slider__image"
-                  src="./images/slider-image-2.png"
+                  class="es-slider__image es-slider__image--desktop"
+                  src="./images/slider-image-1.png"
+                  alt=""
+                />
+                <img
+                  class="es-slider__image es-slider__image--mobile"
+                  src="./images/slider-image-1-mobile.png"
                   alt=""
                 />
               </a>
@@ -57,8 +52,30 @@
             <div class="es-slider__slider-content">
               <a class="" href="#" target="_blank">
                 <img
-                  class="es-slider__image"
+                  class="es-slider__image es-slider__image--desktop"
+                  src="./images/slider-image-2.png"
+                  alt=""
+                />
+                <img
+                  class="es-slider__image es-slider__image--mobile"
+                  src="./images/slider-image-2-mobile.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="es-slider__slide">
+            <div class="es-slider__slider-content">
+              <a class="" href="#" target="_blank">
+                <img
+                  class="es-slider__image es-slider__image--desktop"
                   src="./images/slider-image-3.png"
+                  alt=""
+                />
+                <img
+                  class="es-slider__image es-slider__image--mobile"
+                  src="./images/slider-image-3-mobile.png"
                   alt=""
                 />
               </a>
@@ -92,7 +109,7 @@
           <div class="es-category__item">
             <img
               class="es-category__image"
-              src="images/category-image-1.png"
+              src="images/category-image-1.jpg"
               alt="Pielęgnacja"
             />
             <div class="es-category__item-title">Pielęgnacja</div>
@@ -100,7 +117,7 @@
           <div class="es-category__item">
             <img
               class="es-category__image"
-              src="images/category-image-2.png"
+              src="images/category-image-2.jpg"
               alt="Makijaż"
             />
             <div class="es-category__item-title">Makijaż</div>
@@ -109,7 +126,7 @@
           <div class="es-category__item">
             <img
               class="es-category__image"
-              src="images/category-image-3.png"
+              src="images/category-image-3.jpg"
               alt="ZAPACHY"
             />
             <div class="es-category__item-title">ZAPACHY</div>
@@ -602,7 +619,7 @@
         slidesToShow: 1,
         prevArrow: '.slick-button-prev',
         nextArrow: '.slick-button-next',
-        dots: true,
+        //  dots: true,
       });
     });
 

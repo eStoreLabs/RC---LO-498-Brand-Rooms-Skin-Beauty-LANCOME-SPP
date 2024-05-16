@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-#es-prada.es-prada {
+#es-lancome.es-lancome {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -16,17 +16,17 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-#es-prada.es-prada * {
+#es-lancome.es-lancome * {
   box-sizing: border-box;
 }
-#es-prada.es-prada h2,
-#es-prada.es-prada h3,
-#es-prada.es-prada h4,
-#es-prada.es-prada h5 {
+#es-lancome.es-lancome h2,
+#es-lancome.es-lancome h3,
+#es-lancome.es-lancome h4,
+#es-lancome.es-lancome h5 {
   font-family: "Montserrat", sans-serif;
   color: #000000;
 }
-#es-prada.es-prada .es-title {
+#es-lancome.es-lancome .es-title {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -42,10 +42,10 @@ body {
   text-align: center;
   margin-bottom: 30px;
 }
-#es-prada.es-prada .es-title span {
+#es-lancome.es-lancome .es-title span {
   font-weight: 700;
 }
-#es-prada.es-prada .es-banner {
+#es-lancome.es-lancome .es-banner {
   padding-top: 60px;
   padding-left: 10px;
   padding-right: 10px;
@@ -54,41 +54,40 @@ body {
   background: url("./images/banner-bg.png") no-repeat center;
   background-size: cover;
 }
-#es-prada.es-prada .es-banner__image {
+#es-lancome.es-lancome .es-banner__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
-#es-prada.es-prada .es-banner__description {
+#es-lancome.es-lancome .es-banner__description {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 19px;
   text-align: center;
   color: #000;
 }
-#es-prada.es-prada .es-slider {
+#es-lancome.es-lancome .es-slider {
   position: relative;
   margin-bottom: 30px;
 }
-#es-prada.es-prada .es-slider__slide {
+#es-lancome.es-lancome .es-slider__slide {
   min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-#es-prada.es-prada .es-slider__slide--first {
-  background: url("./images/slider-image-1.png") no-repeat center;
-  background-size: cover;
-}
-#es-prada.es-prada .es-slider__image {
+#es-lancome.es-lancome .es-slider__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   width: 100%;
   min-height: 200px;
 }
-#es-prada.es-prada .es-slider__title {
+#es-lancome.es-lancome .es-slider__image--desktop {
+  display: none;
+}
+#es-lancome.es-lancome .es-slider__title {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -101,7 +100,7 @@ body {
   color: #ffffff;
   text-align: center;
 }
-#es-prada.es-prada .es-slider__description {
+#es-lancome.es-lancome .es-slider__description {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -114,7 +113,7 @@ body {
   color: #ffffff;
   text-align: center;
 }
-#es-prada.es-prada .es-slider__link {
+#es-lancome.es-lancome .es-slider__link {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -136,27 +135,27 @@ body {
   transition: all 0.3s ease;
   text-align: center;
 }
-#es-prada.es-prada .es-slider__link:hover {
+#es-lancome.es-lancome .es-slider__link:hover {
   color: #000000;
   background: #ffffff;
 }
-#es-prada.es-prada .es-category {
+#es-lancome.es-lancome .es-category {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 50px;
 }
-#es-prada.es-prada .es-category__items {
+#es-lancome.es-lancome .es-category__items {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-#es-prada.es-prada .es-category__image {
+#es-lancome.es-lancome .es-category__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
 }
-#es-prada.es-prada .es-category__item-title {
+#es-lancome.es-lancome .es-category__item-title {
   margin-bottom: 25px;
   font-family: "Bodoni Moda", sans-serif;
   font-weight: 500;
@@ -165,7 +164,7 @@ body {
   color: #000000;
   text-transform: uppercase;
 }
-#es-prada.es-prada .es-category__item-link {
+#es-lancome.es-lancome .es-category__item-link {
   display: block;
   margin: 0 auto;
   padding: 20px 35px;
@@ -181,25 +180,25 @@ body {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-#es-prada.es-prada .es-banner-2 {
+#es-lancome.es-lancome .es-banner-2 {
   background: url("./images/banner-2.png") no-repeat center;
   background-size: cover;
   min-height: 400px;
 }
-#es-prada.es-prada .es-banner-3 {
+#es-lancome.es-lancome .es-banner-3 {
   background: url("./images/banner-3.png") no-repeat center;
   background-size: cover;
   min-height: 400px;
 }
-#es-prada.es-prada .es-banner-2,
-#es-prada.es-prada .es-banner-3 {
+#es-lancome.es-lancome .es-banner-2,
+#es-lancome.es-lancome .es-banner-3 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 80px;
 }
-#es-prada.es-prada .es-banner-2__title,
-#es-prada.es-prada .es-banner-3__title {
+#es-lancome.es-lancome .es-banner-2__title,
+#es-lancome.es-lancome .es-banner-3__title {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -213,8 +212,8 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-#es-prada.es-prada .es-banner-2__description,
-#es-prada.es-prada .es-banner-3__description {
+#es-lancome.es-lancome .es-banner-2__description,
+#es-lancome.es-lancome .es-banner-3__description {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -227,8 +226,8 @@ body {
   font-size: 18px;
   text-align: center;
 }
-#es-prada.es-prada .es-banner-2__link,
-#es-prada.es-prada .es-banner-3__link {
+#es-lancome.es-lancome .es-banner-2__link,
+#es-lancome.es-lancome .es-banner-3__link {
   display: block;
   max-width: 300px;
   margin: 0;
@@ -252,12 +251,12 @@ body {
   transition: all 0.3s ease;
   text-align: center;
 }
-#es-prada.es-prada .es-banner-2__link:hover,
-#es-prada.es-prada .es-banner-3__link:hover {
+#es-lancome.es-lancome .es-banner-2__link:hover,
+#es-lancome.es-lancome .es-banner-3__link:hover {
   color: #000000;
   background: #ffffff;
 }
-#es-prada.es-prada .es-banner-3__description {
+#es-lancome.es-lancome .es-banner-3__description {
   display: block;
   margin-bottom: 50px;
   margin-left: auto;
@@ -265,10 +264,10 @@ body {
   max-width: 570px;
   text-align: center;
 }
-#es-prada.es-prada .es-cross {
+#es-lancome.es-lancome .es-cross {
   padding: 0 16px;
 }
-#es-prada.es-prada .es-cross__container {
+#es-lancome.es-lancome .es-cross__container {
   display: flex;
   flex-wrap: wrap;
   flex-flow: column;
@@ -277,7 +276,7 @@ body {
   padding: 0 8px;
   margin: 0 -16px;
 }
-#es-prada.es-prada .es-cross__img {
+#es-lancome.es-lancome .es-cross__img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
@@ -285,13 +284,13 @@ body {
   max-width: 220px;
   margin-bottom: 20px;
 }
-#es-prada.es-prada .es-cross__img--3 {
+#es-lancome.es-lancome .es-cross__img--3 {
   margin-right: -50px;
 }
-#es-prada.es-prada .es-cross__img--range {
+#es-lancome.es-lancome .es-cross__img--range {
   max-width: 300px;
 }
-#es-prada.es-prada .es-cross__single {
+#es-lancome.es-lancome .es-cross__single {
   max-width: 275px;
   margin-bottom: 25px;
   padding: 0 8px;
@@ -300,17 +299,17 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-#es-prada.es-prada .es-cross__single:hover .es-cross__icon {
+#es-lancome.es-lancome .es-cross__single:hover .es-cross__icon {
   transform: scale(1.2);
 }
-#es-prada.es-prada .es-cross__wrapper {
+#es-lancome.es-lancome .es-cross__wrapper {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
 }
-#es-prada.es-prada .es-cross__subtitle {
+#es-lancome.es-lancome .es-cross__subtitle {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -322,11 +321,11 @@ body {
   text-align: center;
   margin-bottom: 16px;
 }
-#es-prada.es-prada .es-cross__subtitle strong {
+#es-lancome.es-lancome .es-cross__subtitle strong {
   display: block;
   text-transform: uppercase;
 }
-#es-prada.es-prada .es-cross__text {
+#es-lancome.es-lancome .es-cross__text {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -339,7 +338,7 @@ body {
   text-align: center;
   margin-bottom: 16px;
 }
-#es-prada.es-prada .es-cross__item-title {
+#es-lancome.es-lancome .es-cross__item-title {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -353,10 +352,10 @@ body {
   color: #000000;
   text-transform: uppercase;
 }
-#es-prada.es-prada .es-cross__item-title--range {
+#es-lancome.es-lancome .es-cross__item-title--range {
   min-height: 10px;
 }
-#es-prada.es-prada .es-cross__item-subtitle {
+#es-lancome.es-lancome .es-cross__item-subtitle {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -372,11 +371,11 @@ body {
   text-align: center;
   min-height: 40px;
 }
-#es-prada.es-prada .es-cross__item-subtitle--range {
+#es-lancome.es-lancome .es-cross__item-subtitle--range {
   min-height: 100px;
   font-size: 11px;
 }
-#es-prada.es-prada .es-cross__link {
+#es-lancome.es-lancome .es-cross__link {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -397,18 +396,18 @@ body {
   text-align: center;
   border-radius: 5px;
 }
-#es-prada.es-prada .es-cross__link:hover {
+#es-lancome.es-lancome .es-cross__link:hover {
   color: #000000;
   background: #ffffff;
 }
-#es-prada.es-prada .es-cross__packshot {
+#es-lancome.es-lancome .es-cross__packshot {
   position: relative;
   z-index: 1;
 }
-#es-prada.es-prada .es-cross__packshot--1 {
+#es-lancome.es-lancome .es-cross__packshot--1 {
   max-width: 189px;
 }
-#es-prada.es-prada .es-cross__packshot--1::before {
+#es-lancome.es-lancome .es-cross__packshot--1::before {
   position: absolute;
   content: "1";
   font-family: "Roboto";
@@ -419,10 +418,10 @@ body {
   line-height: 1;
   z-index: -1;
 }
-#es-prada.es-prada .es-cross__packshot--2 {
+#es-lancome.es-lancome .es-cross__packshot--2 {
   max-width: 175px;
 }
-#es-prada.es-prada .es-cross__packshot--2::before {
+#es-lancome.es-lancome .es-cross__packshot--2::before {
   position: absolute;
   content: "2";
   font-family: "Roboto";
@@ -433,7 +432,7 @@ body {
   line-height: 1;
   z-index: -1;
 }
-#es-prada.es-prada .es-cross__packshot--3::before {
+#es-lancome.es-lancome .es-cross__packshot--3::before {
   position: absolute;
   content: "3";
   font-family: "Roboto";
@@ -444,21 +443,21 @@ body {
   line-height: 1;
   z-index: -1;
 }
-#es-prada.es-prada .es-cross__packshot-icon {
+#es-lancome.es-lancome .es-cross__packshot-icon {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
 }
-#es-prada.es-prada .es-video {
+#es-lancome.es-lancome .es-video {
   padding-left: 15px;
   padding-right: 15px;
 }
-#es-prada.es-prada .es-video__wrapper {
+#es-lancome.es-lancome .es-video__wrapper {
   position: relative;
   margin-bottom: 50px;
 }
-#es-prada.es-prada .es-video__player {
+#es-lancome.es-lancome .es-video__player {
   display: block;
   margin: 0 auto;
   width: 95%;
@@ -466,68 +465,68 @@ body {
      object-fit: cover;
   min-height: 225px;
 }
-#es-prada.es-prada .es-video__play-button {
+#es-lancome.es-lancome .es-video__play-button {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-#es-prada.es-prada .es-video__image-icon {
+#es-lancome.es-lancome .es-video__image-icon {
   width: 53px;
   height: 53px;
 }
-#es-prada.es-prada .es-video__image-icon--desktop {
+#es-lancome.es-lancome .es-video__image-icon--desktop {
   width: 116px;
   height: 116px;
 }
-#es-prada.es-prada .es-video__additional-description {
+#es-lancome.es-lancome .es-video__additional-description {
   min-width: 320px;
   margin-bottom: 32px;
 }
-#es-prada.es-prada .es-video__additional-description strong {
+#es-lancome.es-lancome .es-video__additional-description strong {
   text-transform: none;
 }
-#es-prada.es-prada .es-video__player--desktop {
+#es-lancome.es-lancome .es-video__player--desktop {
   display: none;
 }
-#es-prada.es-prada .es-video__play-button--desktop {
+#es-lancome.es-lancome .es-video__play-button--desktop {
   display: none;
 }
-#es-prada.es-prada .slick-button-prev {
+#es-lancome.es-lancome .slick-button-prev {
   position: absolute;
   top: 35%;
   left: 15px;
   rotate: 180deg;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-button-next {
+#es-lancome.es-lancome .slick-button-next {
   position: absolute;
   top: 35%;
   right: 15px;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-button-2-prev {
+#es-lancome.es-lancome .slick-button-2-prev {
   position: absolute;
   bottom: 0;
   left: 15px;
   rotate: 180deg;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-button-2-next {
+#es-lancome.es-lancome .slick-button-2-next {
   position: absolute;
   bottom: 0;
   right: 15px;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-pagination-2 {
+#es-lancome.es-lancome .slick-pagination-2 {
   position: absolute;
   bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
 }
-#es-prada.es-prada .slick-dots {
+#es-lancome.es-lancome .slick-dots {
   position: absolute;
   display: flex;
   gap: 0 4px;
@@ -536,7 +535,7 @@ body {
   bottom: 3%;
   left: 50%;
 }
-#es-prada.es-prada .slick-dots li {
+#es-lancome.es-lancome .slick-dots li {
   width: 12px;
   height: 12px;
   display: inline-block;
@@ -544,29 +543,29 @@ body {
   background: #898b8d;
   opacity: 1;
 }
-#es-prada.es-prada .slick-dots li:not(:last-child) {
+#es-lancome.es-lancome .slick-dots li:not(:last-child) {
   margin-right: 6px;
 }
-#es-prada.es-prada .slick-dots li.slick-active {
+#es-lancome.es-lancome .slick-dots li.slick-active {
   background: #d9d9d9;
 }
-#es-prada.es-prada .slick-dots li button {
+#es-lancome.es-lancome .slick-dots li button {
   display: none;
 }
-#es-prada.es-prada .slick-slide {
+#es-lancome.es-lancome .slick-slide {
   opacity: 0.7;
 }
-#es-prada.es-prada .slick-current {
+#es-lancome.es-lancome .slick-current {
   opacity: 1;
 }
-#es-prada.es-prada .slick-list {
+#es-lancome.es-lancome .slick-list {
   overflow: visible;
 }
-#es-prada.es-prada .slick-arrow.slick-disabled {
+#es-lancome.es-lancome .slick-arrow.slick-disabled {
   display: none !important;
 }
 @media screen and (min-width: 560px) {
-  #es-prada.es-prada .es-cross__container {
+  #es-lancome.es-lancome .es-cross__container {
     max-width: 628px;
     margin: 0 auto;
     gap: 10px;
@@ -574,153 +573,159 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
   }
-  #es-prada.es-prada .es-video__player--mobile {
+  #es-lancome.es-lancome .es-video__player--mobile {
     display: none;
   }
-  #es-prada.es-prada .es-video__player--desktop {
+  #es-lancome.es-lancome .es-video__player--desktop {
     display: block;
     min-height: 507px;
   }
-  #es-prada.es-prada .es-video__play-button--mobile {
+  #es-lancome.es-lancome .es-video__play-button--mobile {
     display: none;
   }
-  #es-prada.es-prada .es-video__play-button--desktop {
+  #es-lancome.es-lancome .es-video__play-button--desktop {
     display: block;
   }
 }
 @media screen and (min-width: 600px) {
-  #es-prada.es-prada .es-category__items {
+  #es-lancome.es-lancome .es-category__items {
     flex-direction: row;
     gap: 10px;
   }
-  #es-prada.es-prada .es-slick-carousel--mobile,
-  #es-prada.es-prada .slick-button-prev,
-  #es-prada.es-prada .slick-button-next {
+  #es-lancome.es-lancome .es-slick-carousel--mobile,
+  #es-lancome.es-lancome .slick-button-prev,
+  #es-lancome.es-lancome .slick-button-next {
     display: none;
   }
-  #es-prada.es-prada .slick-pagination-2,
-  #es-prada.es-prada .slick-button-2-prev,
-  #es-prada.es-prada .slick-button-2-next {
+  #es-lancome.es-lancome .slick-pagination-2,
+  #es-lancome.es-lancome .slick-button-2-prev,
+  #es-lancome.es-lancome .slick-button-2-next {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  #es-prada.es-prada .es-title {
+  #es-lancome.es-lancome .es-slider__image--desktop {
+    display: block;
+  }
+  #es-lancome.es-lancome .es-slider__image--mobile {
+    display: none;
+  }
+  #es-lancome.es-lancome .es-title {
     margin-bottom: 50px;
     font-size: 30px;
     text-align: center;
   }
-  #es-prada.es-prada .es-cross__container {
+  #es-lancome.es-lancome .es-cross__container {
     max-width: 800px;
   }
-  #es-prada.es-prada .es-banner {
+  #es-lancome.es-lancome .es-banner {
     min-height: 180px;
   }
-  #es-prada.es-prada .es-banner__image {
+  #es-lancome.es-lancome .es-banner__image {
     width: 30%;
   }
 }
 @media screen and (min-width: 860px) {
-  #es-prada.es-prada .es-cross__container {
+  #es-lancome.es-lancome .es-cross__container {
     justify-content: space-around;
   }
-  #es-prada.es-prada .es-cross__title {
+  #es-lancome.es-lancome .es-cross__title {
     margin-bottom: 40px;
   }
-  #es-prada.es-prada .es-cross__text {
+  #es-lancome.es-lancome .es-cross__text {
     min-height: 75px;
   }
-  #es-prada.es-prada .es-cross__img {
+  #es-lancome.es-lancome .es-cross__img {
     max-height: 366px;
   }
-  #es-prada.es-prada .es-cross__img--2 {
+  #es-lancome.es-lancome .es-cross__img--2 {
     max-width: 274px;
   }
-  #es-prada.es-prada .es-cross__img--3 {
+  #es-lancome.es-lancome .es-cross__img--3 {
     max-width: 236px;
     margin-right: 0;
   }
-  #es-prada.es-prada .es-cross__packshot {
+  #es-lancome.es-lancome .es-cross__packshot {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     min-height: 300px;
   }
-  #es-prada.es-prada .es-cross__packshot--2 {
+  #es-lancome.es-lancome .es-cross__packshot--2 {
     max-width: 250px;
   }
-  #es-prada.es-prada .es-cross__packshot--2::before {
+  #es-lancome.es-lancome .es-cross__packshot--2::before {
     left: 33%;
     top: -20px;
   }
-  #es-prada.es-prada .es-cross__packshot--3::before {
+  #es-lancome.es-lancome .es-cross__packshot--3::before {
     left: 25%;
     top: -20px;
   }
-  #es-prada.es-prada .es-title {
+  #es-lancome.es-lancome .es-title {
     font-size: 35px;
   }
 }
 @media screen and (min-width: 925px) {
-  #es-prada.es-prada .es-cross {
+  #es-lancome.es-lancome .es-cross {
     gap: 1px;
   }
-  #es-prada.es-prada .es-cross__img {
+  #es-lancome.es-lancome .es-cross__img {
     max-width: 215px;
     max-height: 366px;
   }
-  #es-prada.es-prada .es-cross__img--range {
+  #es-lancome.es-lancome .es-cross__img--range {
     max-width: 300px;
   }
 }
 @media screen and (min-width: 1200px) {
-  #es-prada.es-prada .es-slider__slide {
+  #es-lancome.es-lancome .es-slider__slide {
     min-height: 450px;
   }
-  #es-prada.es-prada .slick-dots {
+  #es-lancome.es-lancome .slick-dots {
     left: 47%;
   }
-  #es-prada.es-prada .es-cross__container {
+  #es-lancome.es-lancome .es-cross__container {
     max-width: none;
   }
-  #es-prada.es-prada .es-cross__single {
+  #es-lancome.es-lancome .es-cross__single {
     max-width: 220px;
     justify-content: space-between;
   }
-  #es-prada.es-prada .es-cross__single--range {
+  #es-lancome.es-lancome .es-cross__single--range {
     max-width: 283px;
   }
-  #es-prada.es-prada .es-cross__link {
+  #es-lancome.es-lancome .es-cross__link {
     min-width: 214px;
   }
-  #es-prada.es-prada .es-cross__text {
+  #es-lancome.es-lancome .es-cross__text {
     max-width: 245px;
   }
-  #es-prada.es-prada .es-cross__packshot--1::before {
+  #es-lancome.es-lancome .es-cross__packshot--1::before {
     top: -45px;
     left: -47px;
     font-size: 200px;
   }
-  #es-prada.es-prada .es-cross__packshot--2::before {
+  #es-lancome.es-lancome .es-cross__packshot--2::before {
     top: -50px;
     font-size: 200px;
   }
-  #es-prada.es-prada .es-cross__packshot--3::before {
+  #es-lancome.es-lancome .es-cross__packshot--3::before {
     top: -50px;
     font-size: 200px;
   }
-  #es-prada.es-prada .es-banner {
+  #es-lancome.es-lancome .es-banner {
     padding-top: 50px;
     padding-bottom: 0;
     margin-bottom: 34px;
   }
 }
 @media screen and (min-width: 1300px) {
-  #es-prada.es-prada .es-slider,
-  #es-prada.es-prada .es-category,
-  #es-prada.es-prada .es-cross,
-  #es-prada.es-prada .es-video {
+  #es-lancome.es-lancome .es-slider,
+  #es-lancome.es-lancome .es-category,
+  #es-lancome.es-lancome .es-cross,
+  #es-lancome.es-lancome .es-video {
     margin-bottom: 20px;
   }
 }

@@ -26,7 +26,7 @@ body {
   margin: 0 auto;
 }
 
-#es-prada.es-prada {
+#es-lancome.es-lancome {
   font-family: $regular;
   font-size: 15px;
   font-weight: 500;
@@ -98,21 +98,16 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
-      &--first {
-        background: url('./images/slider-image-1.png') no-repeat center;
-        background-size: cover;
-      }
-    }
-
-    &__slider-content {
-      // position: absolute;
     }
 
     &__image {
       @include img;
       width: 100%;
       min-height: 200px;
+
+      &--desktop {
+        display: none;
+      }
     }
 
     &__title {
@@ -640,6 +635,17 @@ body {
   }
 
   @media screen and (min-width: 768px) {
+    .es-slider {
+      &__image {
+        &--desktop {
+          display: block;
+        }
+
+        &--mobile {
+          display: none;
+        }
+      }
+    }
     .es-title {
       margin-bottom: 50px;
       font-size: 30px;
