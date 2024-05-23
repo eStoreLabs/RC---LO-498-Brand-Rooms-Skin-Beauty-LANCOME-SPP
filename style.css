@@ -168,15 +168,11 @@ body {
   display: block;
   margin: 0 auto;
   padding: 20px 35px;
-  max-width: 518px;
   font-family: "Bodoni Moda", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
   text-align: center;
-  color: #fff;
-  background: #000000;
+  color: #000000;
   text-decoration: none;
   transition: all 0.3s ease;
 }
