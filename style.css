@@ -458,7 +458,7 @@ body {
   margin: 0 auto;
   width: 95%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   min-height: 225px;
 }
 #es-lancome.es-lancome .es-video__play-button {
